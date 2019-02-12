@@ -95,7 +95,7 @@ if customer_age >= 62:
     cost = 9.89
 elif customer_age >= 12:
     cost = 12.89
-elif customer_age <= 3: # No case if age = 3. Assumed free.
+elif customer_age <= 3:  # No case if age = 3. Assumed free.
     cost = 0
 else:
     cost = customer_age * 0.99
@@ -138,5 +138,3 @@ if hungry:
     print("Crying")
 else:
     print("Quiet")
-
-
