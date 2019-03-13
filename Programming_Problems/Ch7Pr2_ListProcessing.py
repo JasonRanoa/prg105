@@ -18,7 +18,7 @@ import random
 
 def make_random_list(list_length):
     num_list = [
-        random.randint(1, 100) for i in range(list_length)
+        random.randint(1, 100) for _ in range(list_length)  # underscore for unused var
     ]
     # List Comprehensions. Reference:
     # https://www.pythonforbeginners.com/basics/list-comprehensions-in-python

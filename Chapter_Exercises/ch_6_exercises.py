@@ -55,9 +55,14 @@ counter = 0
 # 2) Write a for loop to read in all of the lines,
 # -- print them on the screen,
 # -- and add 1 to counter for each line
+print("List of States in the US:")
 for line in states_file:
-    if line.strip():  # strip() trims whitespace from string
+    country = line.strip()  # strip() trims whitespace from string
+    if country:  # returns true if country is not blank
+        print("  {:15}".format(country), end="")
         counter = counter + 1
+        if counter % 5 == 0:
+            print()
 # 3) Close the file
 states_file.close()
 print("There are {} states recorded in file.".format(counter))
@@ -80,7 +85,11 @@ books_file = open("books.txt", "w")
 #    make sure to include the \n at the end of the line
 print("Please enter title and author information: ")
 for i in range(books):
-    books_file.write(input("   Book {}: ".format(i + 1)) + "\n")
+    print("Enter information for Book {}:".format(i + 1))
+    books_file.write("Book {} \n".format(i + 1))
+    books_file.write("Title: " + input("   Title  : ") + "\n")
+    books_file.write("Author: " + input("   Author : ") + "\n\n")
+    print()
 print()
 
 # 3) Close the file
