@@ -1,0 +1,26 @@
+[
+    {
+        "question": "What was Kirishima Eijirou's Hero Name?",
+        "options": [
+            "Real Steel",
+            "Hardboi",
+            "Red Riot",
+            "Suneater"
+        ],
+        "answer_idx": 2,
+        "feedback_txt": "Kirishima Eijirou's Hero Name was inspired by his favorite hero/role model, Crimson Riot.",
+        "hidden": false
+    },
+    {
+        "question": "Which one of the ff. is not part of UA's Big Three?",
+        "options": [
+            "Mirio Togata",
+            "Chizome Akaguro",
+            "Nejire Hadou",
+            "Tamaki Amajiki"
+        ],
+        "answer_idx": 1,
+        "feedback_txt": "Chizome Akaguro was the name of Stain, the Hero Killer -- the villain who killed Iida Tensei (Ingenium) and 17 other heroes.",
+        "hidden": false
+    }
+]

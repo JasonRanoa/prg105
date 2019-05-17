@@ -1,0 +1,28 @@
+[
+    {
+        "name": "Jason",
+        "choice": [
+            "Woof",
+            "SirWoof",
+            "TheLoneWoof"
+        ],
+        "index": 1
+    },
+    {
+        "name": "Ryan",
+        "choice": [
+            "Partial",
+            "PartialOff",
+            "50%Off"
+        ],
+        "index": 0
+    },
+    {
+        "name": "Des-MASSIVE",
+        "choice": [
+            "Tiny",
+            "Smol"
+        ],
+        "index": 1
+    }
+]
